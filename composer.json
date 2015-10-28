@@ -1,0 +1,25 @@
+{
+    "name": "maddhatter/laravel-dev-helpers",
+    "description": "Package to include in my projects with dev dependencies I use frequently",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shawn Tunney",
+            "email": "shawn.tunney@gmail.com"
+        }
+    ],
+    "require": {
+        "raveren/kint": "^1.0",
+        "laracasts/generators": "^1.1",
+        "barryvdh/laravel-debugbar": "^2.0",
+        "maddhatter/laravel-view-generator": "^0.0.3",
+        "illuminate/support": "^5.1",
+        "illuminate/console": "^5.1",
+        "barryvdh/laravel-ide-helper": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MaddHatter\\DevHelpers\\": "src/"
+        }
+    }
+}
