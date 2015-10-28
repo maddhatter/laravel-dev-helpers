@@ -15,7 +15,8 @@
         "maddhatter/laravel-view-generator": "^0.0.3",
         "illuminate/support": "^5.1",
         "illuminate/console": "^5.1",
-        "barryvdh/laravel-ide-helper": "^2.1"
+        "barryvdh/laravel-ide-helper": "^2.1",
+        "doctrine/dbal": "^2.5"
     },
     "autoload": {
         "psr-4": {
