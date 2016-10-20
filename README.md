@@ -22,7 +22,7 @@ public function register()
 
 ### composer.json
 
-To use configurable generator stub paths, pull in forked repo:
+Customized `laracasts/generators` fork:
 
 ```json
 "repositories": [
@@ -32,6 +32,6 @@ To use configurable generator stub paths, pull in forked repo:
     }
 ],
 "require-dev": {
-    "laracasts/generators": "dev-configurable-stubs as 1.1.1000",
+    "laracasts/generators": "dev-custom",
 },
 ```
