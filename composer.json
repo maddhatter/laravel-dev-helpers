@@ -10,7 +10,7 @@
     ],
     "require": {
         "raveren/kint": "^1.0",
-        "laracasts/generators": "^1.1",
+        "laracasts/generators": "*",
         "barryvdh/laravel-debugbar": "^2.0",
         "maddhatter/laravel-view-generator": "^0.0.3",
         "illuminate/support": "^5.1",
