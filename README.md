@@ -19,3 +19,19 @@ public function register()
     }
 }
 ```
+
+### composer.json
+
+To use configurable generator stub paths, pull in forked repo:
+
+```json
+"repositories": [
+    {
+        "type": "vcs",
+        "url":  "https://github.com/maddhatter/Laravel-5-Generators-Extended.git"
+    }
+],
+"require-dev": {
+    "laracasts/generators": "dev-configurable-stubs as 1.1.1000",
+},
+```
