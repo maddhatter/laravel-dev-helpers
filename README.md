@@ -1,4 +1,4 @@
-Just a package for me to include in my projects with a bunch of dev dependencies I use in all of my Laravel 5.1 projects... trying to DRY my processes
+Just a package for me to include in my projects with a bunch of dev dependencies I use in all of my Laravel 5.* projects... trying to DRY my processes
 
 ```
 composer require maddhatter/laravel-dev-helpers dev-master --dev
@@ -31,7 +31,16 @@ Customized `laracasts/generators` fork:
         "url":  "https://github.com/maddhatter/Laravel-5-Generators-Extended.git"
     }
 ],
+```
+#### Laravel <5.4
+```json
 "require-dev": {
     "laracasts/generators": "dev-custom",
+},
+```
+#### Laravel 5.4
+```json
+"require-dev": {
+    "laracasts/generators": "dev-custom-5.4",
 },
 ```
