@@ -11,6 +11,7 @@ class DevelopCommand extends Command
      * @var array
      */
     protected $commands = [
+        'config:clear' => [],
         'clear-compiled' => [],
         'ide-helper:generate' => [],
         'ide-helper:models' => ['--nowrite' => true],
